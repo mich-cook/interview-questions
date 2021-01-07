@@ -18,11 +18,11 @@ function App() {
 
   return (
     <div className="App">
-      <p>Single React Class Component</p>
+      <h2>Single React Class Component</h2>
       <Tabview titles={languages} contents={contents} initialtab={selected} />
-      <p>Multicomponent React Implementation (All Using Classes)</p>
+      <h2>Multicomponent React Implementation (All Using Classes)</h2>
       <TabviewMulti titles={languages} contents={contents} initialtab={selected} />
-      <p>Multicomponent React Implementation (Functional Components and Hooks)</p>
+      <h2>Multicomponent React Implementation (Functional Components and Hooks)</h2>
       <TabviewFunc titles={languages} contents={contents} initialtab={selected} />
     </div>
   );
