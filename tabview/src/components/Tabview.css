@@ -7,8 +7,13 @@
   margin: 0; padding: 0;
 }
 
+.tabs {
+  display: flex;
+  align-items: flex-end;
+}
+
 .tabs li {
-  display: inline-block;
+  display: inline-flex;
   margin: 0; padding: 0; border: none;
 }
 
