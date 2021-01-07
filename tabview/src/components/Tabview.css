@@ -1,6 +1,7 @@
 .tabview {
   width: 600px;
   font-family: sans-serif;
+  margin-bottom: 24px;
 }
 
 .tabview ul {
