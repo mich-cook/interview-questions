@@ -1,4 +1,6 @@
 import React from "react";
 
-export default (props) =>
+const TabviewContentFunc = (props) =>
     <li data-key={props.offset} className={((props.selected === true) ? `selected` : `` )}>{props.content}</li>;
+
+export default TabviewContentFunc;

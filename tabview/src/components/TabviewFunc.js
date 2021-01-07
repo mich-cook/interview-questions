@@ -5,7 +5,7 @@ import TabviewContentFunc from "./TabviewContentFunc.js";
 
 import "./Tabview.css";  // same as all the others
 
-export default (props) => {
+const TabviewFunc = (props) => {
 
   const [ selected, setSelected ] = useState(props.initialtab);
 
@@ -30,3 +30,5 @@ export default (props) => {
   );
 
 };
+
+export default TabviewFunc;
