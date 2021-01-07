@@ -12,9 +12,11 @@ function App() {
     "German Hello World"
   ];
 
+  let selected = 0;
+
   return (
     <div className="App">
-      <Tabview titles={languages} contents={contents} />
+      <Tabview titles={languages} contents={contents} initialtab={selected} />
     </div>
   );
 }
