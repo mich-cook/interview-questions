@@ -1,6 +1,7 @@
 import './App.css';
 
 import Tabview from "./components/Tabview.js";
+import TabviewMulti from "./components/TabviewMulti.js";
 
 function App() {
 
@@ -16,7 +17,10 @@ function App() {
 
   return (
     <div className="App">
+      <p>Single React Class Component</p>
       <Tabview titles={languages} contents={contents} initialtab={selected} />
+      <p>Multicomponent React Implementation (All Using Classes)</p>
+      <TabviewMulti titles={languages} contents={contents} initialtab={selected} />
     </div>
   );
 }
