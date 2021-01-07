@@ -1,0 +1,7 @@
+.tabs li {
+  display: inline-block;
+}
+
+.tabs li button {
+  margin: 0; padding: 0; border: none; background: transparent;
+}
