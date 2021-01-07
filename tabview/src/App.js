@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
+import Tabview from "./components/Tabview.js";
+
 function App() {
+
+  // hard coding for simplicity. fetching data is out of scope.
+  const languages = [ "English", "French", "German" ];
+  const contents = [
+    "English Hello World",
+    "French Hello World",
+    "German Hello World"
+  ];
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Tabview titles={languages} contents={contents} />
     </div>
   );
 }
