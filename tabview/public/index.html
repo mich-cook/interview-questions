@@ -18,16 +18,17 @@
     <!-- possible markup tag for a tabview -->
     <section class="tabview">
       <ul class="tabs">
-        <li class="selected"><button>English</button></li>
-        <li><button>French</button></li>
-        <li><button>German</button></li>
+        <li data-key="0" class="selected"><button>English</button></li>
+        <li data-key="1"><button>French</button></li>
+        <li data-key="2"><button>German</button></li>
       </ul>
       <ul class="contents">
-        <li class="selected">English Hello World</li>
-        <li>French Hello World</li>
-        <li>German Hello World</li>
+        <li data-key="0" class="selected">English Hello World</li>
+        <li data-key="1">French Hello World</li>
+        <li data-key="2">German Hello World</li>
       </ul>
     </section>
     <div id="root"></div>
+    <script src="/vanilla-tabview.js"></script>
   </body>
 </html>
