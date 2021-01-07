@@ -6,10 +6,10 @@ export default class Tabview extends Component {
     return (
       <div className="tabview">
         <ul className="tabs">
-          {this.props.titles.map(title => <li><button>{title}</button></li>)}
+          {this.props.titles.map((title, i) => <li key={i}><button>{title}</button></li>)}
         </ul>
         <ul className="contents">
-          {this.props.contents.map(content => <li>{content}</li>)}
+          {this.props.contents.map((content, i) => <li key={i}>{content}</li>)}
         </ul>
       </div>
     );
