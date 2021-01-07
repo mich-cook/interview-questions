@@ -4,11 +4,11 @@ export default class Tabview extends Component {
 
   render() {
     return (
-      <div class="tabview">
-        <ul class="tabs">
+      <div className="tabview">
+        <ul className="tabs">
           {this.props.titles.map(title => <li><button>{title}</button></li>)}
         </ul>
-        <ul class="contents">
+        <ul className="contents">
           {this.props.contents.map(content => <li>{content}</li>)}
         </ul>
       </div>
