@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import "./Tabview.css";
+
 export default class Tabview extends Component {
 
   render() {
