@@ -11,6 +11,8 @@
 # production
 /build
 
+.eslintcache
+
 # misc
 .env.local
 .env.development.local
