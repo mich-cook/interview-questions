@@ -1,7 +1,43 @@
+.tabview {
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.tabview ul {
+  margin: 0; padding: 0;
+}
+
 .tabs li {
   display: inline-block;
+  margin: 0; padding: 0; border: none;
 }
 
 .tabs li button {
   margin: 0; padding: 0; border: none; background: transparent;
+  background-color: #29ab87;
+  padding: 8px 10px;
+  color: #ffffff;
+  outline: none;
+  margin-right: 2px;
+}
+
+.tabs li.selected button {
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 12px;
+  border-top: 4px solid #29ab87;
+}
+
+.contents li {
+  padding: 24px 12px;
+  display: block;
+  background-color: #ffffff;
+}
+
+.contents li {
+  display: none;
+}
+
+.contents li.selected {
+  display: block;
 }
